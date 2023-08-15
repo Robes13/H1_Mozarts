@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{95744DEA-C52C-4ABF-9AF3-AD5DBD7B8078}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>H1_Mozard</RootNamespace>
+    <AssemblyName>H1_Mozard</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Wave\M1.wav" />
+    <Content Include="Wave\M10.wav" />
+    <Content Include="Wave\M100.wav" />
+    <Content Include="Wave\M101.wav" />
+    <Content Include="Wave\M102.wav" />
+    <Content Include="Wave\M103.wav" />
+    <Content Include="Wave\M104.wav" />
+    <Content Include="Wave\M105.wav" />
+    <Content Include="Wave\M106.wav" />
+    <Content Include="Wave\M107.wav" />
+    <Content Include="Wave\M108.wav" />
+    <Content Include="Wave\M109.wav" />
+    <Content Include="Wave\M11.wav" />
+    <Content Include="Wave\M110.wav" />
+    <Content Include="Wave\M111.wav" />
+    <Content Include="Wave\M112.wav" />
+    <Content Include="Wave\M113.wav" />
+    <Content Include="Wave\M114.wav" />
+    <Content Include="Wave\M115.wav" />
+    <Content Include="Wave\M116.wav" />
+    <Content Include="Wave\M117.wav" />
+    <Content Include="Wave\M118.wav" />
+    <Content Include="Wave\M119.wav" />
+    <Content Include="Wave\M12.wav" />
+    <Content Include="Wave\M120.wav" />
+    <Content Include="Wave\M121.wav" />
+    <Content Include="Wave\M122.wav" />
+    <Content Include="Wave\M123.wav" />
+    <Content Include="Wave\M124.wav" />
+    <Content Include="Wave\M125.wav" />
+    <Content Include="Wave\M126.wav" />
+    <Content Include="Wave\M127.wav" />
+    <Content Include="Wave\M128.wav" />
+    <Content Include="Wave\M129.wav" />
+    <Content Include="Wave\M13.wav" />
+    <Content Include="Wave\M130.wav" />
+    <Content Include="Wave\M131.wav" />
+    <Content Include="Wave\M132.wav" />
+    <Content Include="Wave\M133.wav" />
+    <Content Include="Wave\M134.wav" />
+    <Content Include="Wave\M135.wav" />
+    <Content Include="Wave\M136.wav" />
+    <Content Include="Wave\M137.wav" />
+    <Content Include="Wave\M138.wav" />
+    <Content Include="Wave\M139.wav" />
+    <Content Include="Wave\M14.wav" />
+    <Content Include="Wave\M140.wav" />
+    <Content Include="Wave\M141.wav" />
+    <Content Include="Wave\M142.wav" />
+    <Content Include="Wave\M143.wav" />
+    <Content Include="Wave\M144.wav" />
+    <Content Include="Wave\M145.wav" />
+    <Content Include="Wave\M146.wav" />
+    <Content Include="Wave\M147.wav" />
+    <Content Include="Wave\M148.wav" />
+    <Content Include="Wave\M149.wav" />
+    <Content Include="Wave\M15.wav" />
+    <Content Include="Wave\M150.wav" />
+    <Content Include="Wave\M151.wav" />
+    <Content Include="Wave\M152.wav" />
+    <Content Include="Wave\M153.wav" />
+    <Content Include="Wave\M154.wav" />
+    <Content Include="Wave\M155.wav" />
+    <Content Include="Wave\M156.wav" />
+    <Content Include="Wave\M157.wav" />
+    <Content Include="Wave\M158.wav" />
+    <Content Include="Wave\M159.wav" />
+    <Content Include="Wave\M16.wav" />
+    <Content Include="Wave\M160.wav" />
+    <Content Include="Wave\M161.wav" />
+    <Content Include="Wave\M162.wav" />
+    <Content Include="Wave\M163.wav" />
+    <Content Include="Wave\M164.wav" />
+    <Content Include="Wave\M165.wav" />
+    <Content Include="Wave\M166.wav" />
+    <Content Include="Wave\M167.wav" />
+    <Content Include="Wave\M168.wav" />
+    <Content Include="Wave\M169.wav" />
+    <Content Include="Wave\M17.wav" />
+    <Content Include="Wave\M170.wav" />
+    <Content Include="Wave\M171.wav" />
+    <Content Include="Wave\M172.wav" />
+    <Content Include="Wave\M173.wav" />
+    <Content Include="Wave\M174.wav" />
+    <Content Include="Wave\M175.wav" />
+    <Content Include="Wave\M176.wav" />
+    <Content Include="Wave\M18.wav" />
+    <Content Include="Wave\M19.wav" />
+    <Content Include="Wave\M2.wav" />
+    <Content Include="Wave\M20.wav" />
+    <Content Include="Wave\M21.wav" />
+    <Content Include="Wave\M22.wav" />
+    <Content Include="Wave\M23.wav" />
+    <Content Include="Wave\M24.wav" />
+    <Content Include="Wave\M25.wav" />
+    <Content Include="Wave\M26.wav" />
+    <Content Include="Wave\M27.wav" />
+    <Content Include="Wave\M28.wav" />
+    <Content Include="Wave\M29.wav" />
+    <Content Include="Wave\M3.wav" />
+    <Content Include="Wave\M30.wav" />
+    <Content Include="Wave\M31.wav" />
+    <Content Include="Wave\M32.wav" />
+    <Content Include="Wave\M33.wav" />
+    <Content Include="Wave\M34.wav" />
+    <Content Include="Wave\M35.wav" />
+    <Content Include="Wave\M36.wav" />
+    <Content Include="Wave\M37.wav" />
+    <Content Include="Wave\M38.wav" />
+    <Content Include="Wave\M39.wav" />
+    <Content Include="Wave\M4.wav" />
+    <Content Include="Wave\M40.wav" />
+    <Content Include="Wave\M41.wav" />
+    <Content Include="Wave\M42.wav" />
+    <Content Include="Wave\M43.wav" />
+    <Content Include="Wave\M44.wav" />
+    <Content Include="Wave\M45.wav" />
+    <Content Include="Wave\M46.wav" />
+    <Content Include="Wave\M47.wav" />
+    <Content Include="Wave\M48.wav" />
+    <Content Include="Wave\M49.wav" />
+    <Content Include="Wave\M5.wav" />
+    <Content Include="Wave\M50.wav" />
+    <Content Include="Wave\M51.wav" />
+    <Content Include="Wave\M52.wav" />
+    <Content Include="Wave\M53.wav" />
+    <Content Include="Wave\M54.wav" />
+    <Content Include="Wave\M55.wav" />
+    <Content Include="Wave\M56.wav" />
+    <Content Include="Wave\M57.wav" />
+    <Content Include="Wave\M58.wav" />
+    <Content Include="Wave\M59.wav" />
+    <Content Include="Wave\M6.wav" />
+    <Content Include="Wave\M60.wav" />
+    <Content Include="Wave\M61.wav" />
+    <Content Include="Wave\M62.wav" />
+    <Content Include="Wave\M63.wav" />
+    <Content Include="Wave\M64.wav" />
+    <Content Include="Wave\M65.wav" />
+    <Content Include="Wave\M66.wav" />
+    <Content Include="Wave\M67.wav" />
+    <Content Include="Wave\M68.wav" />
+    <Content Include="Wave\M69.wav" />
+    <Content Include="Wave\M7.wav" />
+    <Content Include="Wave\M70.wav" />
+    <Content Include="Wave\M71.wav" />
+    <Content Include="Wave\M72.wav" />
+    <Content Include="Wave\M73.wav" />
+    <Content Include="Wave\M74.wav" />
+    <Content Include="Wave\M75.wav" />
+    <Content Include="Wave\M76.wav" />
+    <Content Include="Wave\M77.wav" />
+    <Content Include="Wave\M78.wav" />
+    <Content Include="Wave\M79.wav" />
+    <Content Include="Wave\M8.wav" />
+    <Content Include="Wave\M80.wav" />
+    <Content Include="Wave\M81.wav" />
+    <Content Include="Wave\M82.wav" />
+    <Content Include="Wave\M83.wav" />
+    <Content Include="Wave\M84.wav" />
+    <Content Include="Wave\M85.wav" />
+    <Content Include="Wave\M86.wav" />
+    <Content Include="Wave\M87.wav" />
+    <Content Include="Wave\M88.wav" />
+    <Content Include="Wave\M89.wav" />
+    <Content Include="Wave\M9.wav" />
+    <Content Include="Wave\M90.wav" />
+    <Content Include="Wave\M91.wav" />
+    <Content Include="Wave\M92.wav" />
+    <Content Include="Wave\M93.wav" />
+    <Content Include="Wave\M94.wav" />
+    <Content Include="Wave\M95.wav" />
+    <Content Include="Wave\M96.wav" />
+    <Content Include="Wave\M97.wav" />
+    <Content Include="Wave\M98.wav" />
+    <Content Include="Wave\M99.wav" />
+    <Content Include="Wave\T1.wav" />
+    <Content Include="Wave\T10.wav" />
+    <Content Include="Wave\T11.wav" />
+    <Content Include="Wave\T12.wav" />
+    <Content Include="Wave\T13.wav" />
+    <Content Include="Wave\T14.wav" />
+    <Content Include="Wave\T15.wav" />
+    <Content Include="Wave\T16.wav" />
+    <Content Include="Wave\T17.wav" />
+    <Content Include="Wave\T18.wav" />
+    <Content Include="Wave\T19.wav" />
+    <Content Include="Wave\T2.wav" />
+    <Content Include="Wave\T20.wav" />
+    <Content Include="Wave\T21.wav" />
+    <Content Include="Wave\T22.wav" />
+    <Content Include="Wave\T23.wav" />
+    <Content Include="Wave\T24.wav" />
+    <Content Include="Wave\T25.wav" />
+    <Content Include="Wave\T26.wav" />
+    <Content Include="Wave\T27.wav" />
+    <Content Include="Wave\T28.wav" />
+    <Content Include="Wave\T29.wav" />
+    <Content Include="Wave\T3.wav" />
+    <Content Include="Wave\T30.wav" />
+    <Content Include="Wave\T31.wav" />
+    <Content Include="Wave\T32.wav" />
+    <Content Include="Wave\T33.wav" />
+    <Content Include="Wave\T34.wav" />
+    <Content Include="Wave\T35.wav" />
+    <Content Include="Wave\T36.wav" />
+    <Content Include="Wave\T37.wav" />
+    <Content Include="Wave\T38.wav" />
+    <Content Include="Wave\T39.wav" />
+    <Content Include="Wave\T4.wav" />
+    <Content Include="Wave\T40.wav" />
+    <Content Include="Wave\T41.wav" />
+    <Content Include="Wave\T42.wav" />
+    <Content Include="Wave\T43.wav" />
+    <Content Include="Wave\T44.wav" />
+    <Content Include="Wave\T45.wav" />
+    <Content Include="Wave\T46.wav" />
+    <Content Include="Wave\T47.wav" />
+    <Content Include="Wave\T48.wav" />
+    <Content Include="Wave\T49.wav" />
+    <Content Include="Wave\T5.wav" />
+    <Content Include="Wave\T50.wav" />
+    <Content Include="Wave\T51.wav" />
+    <Content Include="Wave\T52.wav" />
+    <Content Include="Wave\T53.wav" />
+    <Content Include="Wave\T54.wav" />
+    <Content Include="Wave\T55.wav" />
+    <Content Include="Wave\T56.wav" />
+    <Content Include="Wave\T57.wav" />
+    <Content Include="Wave\T58.wav" />
+    <Content Include="Wave\T59.wav" />
+    <Content Include="Wave\T6.wav" />
+    <Content Include="Wave\T60.wav" />
+    <Content Include="Wave\T61.wav" />
+    <Content Include="Wave\T62.wav" />
+    <Content Include="Wave\T63.wav" />
+    <Content Include="Wave\T64.wav" />
+    <Content Include="Wave\T65.wav" />
+    <Content Include="Wave\T66.wav" />
+    <Content Include="Wave\T67.wav" />
+    <Content Include="Wave\T68.wav" />
+    <Content Include="Wave\T69.wav" />
+    <Content Include="Wave\T7.wav" />
+    <Content Include="Wave\T70.wav" />
+    <Content Include="Wave\T71.wav" />
+    <Content Include="Wave\T72.wav" />
+    <Content Include="Wave\T73.wav" />
+    <Content Include="Wave\T74.wav" />
+    <Content Include="Wave\T75.wav" />
+    <Content Include="Wave\T76.wav" />
+    <Content Include="Wave\T77.wav" />
+    <Content Include="Wave\T78.wav" />
+    <Content Include="Wave\T79.wav" />
+    <Content Include="Wave\T8.wav" />
+    <Content Include="Wave\T80.wav" />
+    <Content Include="Wave\T81.wav" />
+    <Content Include="Wave\T82.wav" />
+    <Content Include="Wave\T83.wav" />
+    <Content Include="Wave\T84.wav" />
+    <Content Include="Wave\T85.wav" />
+    <Content Include="Wave\T86.wav" />
+    <Content Include="Wave\T87.wav" />
+    <Content Include="Wave\T88.wav" />
+    <Content Include="Wave\T89.wav" />
+    <Content Include="Wave\T9.wav" />
+    <Content Include="Wave\T90.wav" />
+    <Content Include="Wave\T91.wav" />
+    <Content Include="Wave\T92.wav" />
+    <Content Include="Wave\T93.wav" />
+    <Content Include="Wave\T94.wav" />
+    <Content Include="Wave\T95.wav" />
+    <Content Include="Wave\T96.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

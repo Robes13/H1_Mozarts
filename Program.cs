@@ -37,8 +37,8 @@ namespace H1_Mozarts
             // Creating new random
             Random rnd = new Random();
             // Creating our two dices
-            int diceOne = rnd.Next(1, 7);
-            int diceTwo = rnd.Next(1, 7);
+            int diceOne = rnd.Next(0, 5);
+            int diceTwo = rnd.Next(0, 5);
             // Creating file path array
             string[] files = new string[32];
             // Adding the minuette pathways.

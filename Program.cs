@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -44,16 +44,15 @@ namespace H1_Mozarts
             // Adding the minuette pathways.
             for (int i = 0; i < minuet.GetLength(1); i++)
             {
+                int diceIndexTwo = diceOne;
                 int diceIndex = diceOne + diceTwo;
-                files[i] = @"C:\Users\Robert\Desktop\Hovedforløb 1\H1_Mozard\H1_Mozard\Wave\M" + minuet[diceIndex, i] + ".wav";
-            }
-            // Adding the trio pathways
-            for (int i = 0; i < trios.GetLength(1); i++)
-            {
-                int diceIndex = diceOne;
-                files[i + 16] = @"C:\Users\Robert\Desktop\Hovedforløb 1\H1_Mozard\H1_Mozard\Wave\T" + trios[diceIndex-1, i] + ".wav";
+                files[i] = @"M" + minuet[diceIndex, i] + ".wav";
+                // Adding the trio pathways
+                files[i + 1] = @"T" + trios[diceIndexTwo - 1, i] + ".wav";
+
             }
             // Creating new soundplayer
+
             System.Media.SoundPlayer sp = new
             System.Media.SoundPlayer();
             // Playing all the soundfiles from the paths.
